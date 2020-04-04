@@ -15,7 +15,7 @@
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="!NOTAS!"
+        android:text="+NOTAS+"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:textSize="24sp"
@@ -32,6 +32,6 @@
         android:text="Criar Nova Anotação"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="abrirTelaNovaAnotacao" />
+        android:onClick="abrirTelaCriarNovaAnotacao" />
 
 </LinearLayout>

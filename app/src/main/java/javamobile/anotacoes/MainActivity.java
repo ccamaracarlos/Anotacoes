@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void abrirTelaNovaAnotacao(View view){
+    public void abrirTelaCriarNovaAnotacao(View view){
         Intent startNewActivity = new Intent(this,CriarAnotacao.class);
         startActivity(startNewActivity);
     }
